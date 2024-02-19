@@ -1,0 +1,11 @@
+import { siteConfig } from "@/config/site";
+import { MetadataRoute } from "next";
+
+export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
+	const routes = ["/"].map((route) => ({
+		url: `${siteConfig.links.website}${route}`,
+		lastModified: new Date().toISOString().split("T")[0]
+	}));
+
+	return [...routes];
+}
