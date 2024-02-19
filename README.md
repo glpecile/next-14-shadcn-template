@@ -1,36 +1,127 @@
+# Not another Next.js starter
+
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
 ## Getting Started
 
-First, run the development server:
+The project is based on [Next.js](https://nextjs.org/), a React framework for production. It
+uses [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
+The package manager is [pnpm](https://pnpm.io/), so you need to install it first.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+```sh
+make deps
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This command will try to install `pnpm` globally using the existing `npm` version and then proceed to run `pnpm install`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+If you have `pnpm` installed globally already, you can run:
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+```sh
+make install
+```
 
-## Learn More
+Behind the scenes, this will do a `pnpm install` of the `package.json` dependencies, creating a `node_module` folder
+locally.
 
-To learn more about Next.js, take a look at the following resources:
+### Environment Variables
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+No environment variables are required to run the template. These should be added to a `.env` file in the root of the project
+and should be prefixed with `NEXT_PUBLIC_` to be available in the client-side code.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+```dotenv
+NEXT_PUBLIC_YOUR_ENV_VARIABLE
+```
 
-## Deploy on Vercel
+The following table describes each environment variable:
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+| Variable                      | Description                                                                                                    |
+|-------------------------------|----------------------------------------------------------------------------------------------------------------|
+| `NEXT_PUBLIC_YOUR_ENV_VARIABLE`    | Example env variable.                                                                    |
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+Run the following command to create a `.env` file based on `.env.example` with the required environment variables:
+
+```sh
+make create_env
+```
+
+This will create a `.env` file with the required environment variables. Make sure to update the values of the variables
+in the `.env` file to match your environment.
+
+### Development
+
+To start a development build of the webapp, run:
+
+```sh
+make dev
+```
+
+This runs `next dev`, which starts the application in development mode with hot-code reloading, error reporting, and
+more.
+
+Then open [http://localhost:3000](http://localhost:3000) with your browser to view the application.
+
+Make sure to update environment variables in `.env` to match your environment. See `.env.example` for an example of
+which variables are required. For more information, see the [Environment Variables](#environment-variables) section.
+
+#### Linting
+
+To lint the webapp, run:
+
+```sh
+make lint
+```
+
+This runs `next lint`, which runs ESLint on the pages and components in the webapp and reports any linting errors.
+Make sure to fix all linting errors before submitting a pull request.
+
+### Production
+
+To run the production build of the webapp, run:
+
+```sh
+make build
+```
+
+This runs `next build`, which generates an optimized version of your application for production. HTML, CSS, and
+JavaScript files are created based on your pages. JavaScript is compiled and browser bundles are minified using the
+Next.js Compiler to help achieve the best performance and support all modern
+browsers[<sup>1</sup>](https://nextjs.org/docs/app/building-your-application/deploying#production-builds).
+
+#### Running the production build
+
+To start the production build of the webapp, run:
+
+```sh
+make start
+```
+
+This runs `next start`, which starts the Node.js server. This server supports all Next.js
+features[<sup>2</sup>](https://nextjs.org/docs/app/building-your-application/deploying#nodejs-server).
+
+Alternatively, you can run:
+
+```sh
+make deploy
+```
+
+This runs `next build && next start`, which builds and starts the application in production mode.
+
+Then open [http://localhost:3000](http://localhost:3000) with your browser to view the application.
+
+#### Running in a different port
+
+To run the webapp in a different port, run:
+
+```sh
+make start PORT=3069
+```
+
+or:
+
+```sh
+make deploy PORT=3069
+```
+
+This starts the application in production mode in port 3069.
+
+<hr/>
