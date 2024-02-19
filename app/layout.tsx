@@ -1,11 +1,9 @@
 import type { Metadata, Viewport } from "next";
-import { Inter } from "next/font/google";
+import { fontSans } from "@/lib/fonts";
 import "./globals.css";
 import { cn } from "@/lib/utils";
 import { ThemeProvider } from "@/components/theme-provider";
 import { siteConfig } from "@/config/site";
-
-const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
 	title: {
@@ -20,13 +18,23 @@ export const metadata: Metadata = {
 	},
 	robots: "/robots.txt",
 	manifest: "/manifest.json",
-	metadataBase: new URL(siteConfig.links.website)
+	metadataBase: new URL(siteConfig.siteUrl),
+	category: siteConfig.category,
+	keywords: [
+		// TODO: Add keywords
+	]
 };
 
 export const viewport: Viewport = {
 	themeColor: [
-		{ media: "(prefers-color-scheme: light)", color: "white" },
-		{ media: "(prefers-color-scheme: dark)", color: "black" }
+		{
+			media: "(prefers-color-scheme: light)",
+			color: siteConfig.themeColor
+		},
+		{
+			media: "(prefers-color-scheme: dark)",
+			color: siteConfig.themeColor
+		}
 	],
 	width: "device-width",
 	initialScale: 1,
@@ -44,7 +52,7 @@ export default function RootLayout({
 			<body
 				className={cn(
 					"min-h-screen bg-background font-sans antialiased",
-					inter.className
+					fontSans.className
 				)}
 			>
 				<ThemeProvider

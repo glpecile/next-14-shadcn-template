@@ -3,7 +3,7 @@ import { MetadataRoute } from "next";
 
 export default async function sitemap(): Promise<MetadataRoute.Sitemap> {
 	const routes = ["/"].map((route) => ({
-		url: `${siteConfig.links.website}${route}`,
+		url: `${siteConfig.siteUrl}${route}`,
 		lastModified: new Date().toISOString().split("T")[0]
 	}));
 

@@ -2,6 +2,14 @@
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
+## What's included
+
+- [Next.js 14.1](https://nextjs.org/)
+- [Shadcn UI 0.8.0](https://ui.shadcn.com/)
+- [TypeScript](https://www.typescriptlang.org/)
+- [Biome.js](https://biomejs.dev/)
+- [Framer Motion](https://www.framer.com/motion/)
+
 ## Getting Started
 
 The project is based on [Next.js](https://nextjs.org/), a React framework for production. It
@@ -122,6 +130,28 @@ or:
 make deploy PORT=3069
 ```
 
-This starts the application in production mode in port 3069.
+This starts the application in production mode in port `3069`.
+
+## Make it your own
+
+To make this template your own, you SHOULD:
+
+- Update the `name`, `description`, `author` and `repository` fields in [`package.json`](/package.json).
+- Edit the [`site.ts`](/config/site.ts) file in the `src/config` folder to match your site's information.
+
+### Site Config Options
+
+The `site.ts` file contains the following options:
+
+| Option                      | Description                                                                                                    |
+|-----------------------------|----------------------------------------------------------------------------------------------------------------|
+| `title`                     | The title of the site.                                                                                          |
+| `description`               | The description of the site.                                                                                    |
+| `emoji`                     | The emoji to be displayed as the favicon of the site.                                                             |
+| `backgroundColor`           | The background color of the site.                                                                               |
+| `themeColor`                | The theme color of the site.                                                                                    |
+| `siteUrl`                   | The URL of the site.                                                                                            |
+| `mainNav`                   | The values to be used in the main navigation bar of the site with the shape `{ title, href }`.                                                                                |
+| `links`                     | Social media links to be used throughout the app, these include by default twitter, telegram, github and docs. Extend as needed.                                                                                |
 
 <hr/>

@@ -6,6 +6,10 @@ export const siteConfig = {
 	description:
 		"Beautifully designed template built with Shadcn UI.",
 	emoji: "🧙‍♂️",
+	backgroundColor: "#fff",
+	themeColor: "#000",
+	siteUrl: "https://example.com",
+	category: "example",
 	mainNav: [
 		{
 			title: "Home",
@@ -13,8 +17,8 @@ export const siteConfig = {
 		}
 	],
 	links: {
-		website: "https://example.com",
 		twitter: "https://twitter.com/example",
+		telegram: "https://t.me/example",
 		github: "https://github.com/example",
 		docs: "https://docs.example.com"
 	}

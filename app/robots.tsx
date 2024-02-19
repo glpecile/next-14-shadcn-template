@@ -6,7 +6,7 @@ export default function robots(): MetadataRoute.Robots {
 		rules: {
 			userAgent: "*"
 		},
-		sitemap: `${siteConfig.links.website}/sitemap.xml`,
-		host: siteConfig.links.website
+		sitemap: `${siteConfig.siteUrl}/sitemap.xml`,
+		host: siteConfig.siteUrl
 	};
 }
