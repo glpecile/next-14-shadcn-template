@@ -4,9 +4,9 @@ import { MetadataRoute } from "next";
 export default function robots(): MetadataRoute.Robots {
 	return {
 		rules: {
-			userAgent: "*"
+			userAgent: "*",
 		},
 		sitemap: `${siteConfig.siteUrl}/sitemap.xml`,
-		host: siteConfig.siteUrl
+		host: siteConfig.siteUrl,
 	};
 }

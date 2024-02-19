@@ -8,13 +8,13 @@ import { siteConfig } from "@/config/site";
 export const metadata: Metadata = {
 	title: {
 		default: siteConfig.name,
-		template: `%s - ${siteConfig.name}`
+		template: `%s - ${siteConfig.name}`,
 	},
 	description: siteConfig.description,
 	icons: {
 		icon: "/favicon.ico",
 		shortcut: "/favicon-16x16.png",
-		apple: "/apple-touch-icon.png"
+		apple: "/apple-touch-icon.png",
 	},
 	robots: "/robots.txt",
 	manifest: "/manifest.json",
@@ -22,28 +22,28 @@ export const metadata: Metadata = {
 	category: siteConfig.category,
 	keywords: [
 		// TODO: Add keywords
-	]
+	],
 };
 
 export const viewport: Viewport = {
 	themeColor: [
 		{
 			media: "(prefers-color-scheme: light)",
-			color: siteConfig.themeColor
+			color: siteConfig.themeColor,
 		},
 		{
 			media: "(prefers-color-scheme: dark)",
-			color: siteConfig.themeColor
-		}
+			color: siteConfig.themeColor,
+		},
 	],
 	width: "device-width",
 	initialScale: 1,
 	minimumScale: 1,
-	maximumScale: 5
+	maximumScale: 5,
 };
 
 export default function RootLayout({
-	children
+	children,
 }: Readonly<{
 	children: React.ReactNode;
 }>) {
@@ -52,7 +52,7 @@ export default function RootLayout({
 			<body
 				className={cn(
 					"min-h-screen bg-background font-sans antialiased",
-					fontSans.className
+					fontSans.className,
 				)}
 			>
 				<ThemeProvider

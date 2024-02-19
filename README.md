@@ -42,9 +42,9 @@ NEXT_PUBLIC_YOUR_ENV_VARIABLE
 
 The following table describes each environment variable:
 
-| Variable                      | Description                                                                                                    |
-|-------------------------------|----------------------------------------------------------------------------------------------------------------|
-| `NEXT_PUBLIC_YOUR_ENV_VARIABLE`    | Example env variable.                                                                    |
+| Variable                        | Description           |
+|---------------------------------|-----------------------|
+| `NEXT_PUBLIC_YOUR_ENV_VARIABLE` | Example env variable. |
 
 Run the following command to create a `.env` file based on `.env.example` with the required environment variables:
 
@@ -143,15 +143,15 @@ To make this template your own, you SHOULD:
 
 The `site.ts` file contains the following options:
 
-| Option                      | Description                                                                                                    |
-|-----------------------------|----------------------------------------------------------------------------------------------------------------|
-| `title`                     | The title of the site.                                                                                          |
-| `description`               | The description of the site.                                                                                    |
-| `emoji`                     | The emoji to be displayed as the favicon of the site.                                                             |
-| `backgroundColor`           | The background color of the site.                                                                               |
-| `themeColor`                | The theme color of the site.                                                                                    |
-| `siteUrl`                   | The URL of the site.                                                                                            |
-| `mainNav`                   | The values to be used in the main navigation bar of the site with the shape `{ title, href }`.                                                                                |
-| `links`                     | Social media links to be used throughout the app, these include by default twitter, telegram, github and docs. Extend as needed.                                                                                |
+| Option            | Description                                                                                                                      |
+|-------------------|----------------------------------------------------------------------------------------------------------------------------------|
+| `title`           | The title of the site.                                                                                                           |
+| `description`     | The description of the site.                                                                                                     |
+| `emoji`           | The emoji to be displayed as the favicon of the site.                                                                            |
+| `backgroundColor` | The background color of the site.                                                                                                |
+| `themeColor`      | The theme color of the site.                                                                                                     |
+| `siteUrl`         | The URL of the site.                                                                                                             |
+| `mainNav`         | The values to be used in the main navigation bar of the site with the shape `{ title, href }`.                                   |
+| `links`           | Social media links to be used throughout the app, these include by default twitter, telegram, github and docs. Extend as needed. |
 
 <hr/>
