@@ -1,8 +1,9 @@
 # Not another Next.js starter
 
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+by [Gian Luca Pecile](https://github.com/glpecile).
 
-## What's included
+## 🔋 What's included
 
 - [Next.js 14.1](https://nextjs.org/)
 - [Shadcn UI 0.8.0](https://ui.shadcn.com/)
@@ -10,11 +11,11 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 - [Biome.js](https://biomejs.dev/)
 - [Framer Motion](https://www.framer.com/motion/)
 
-## Getting Started
+## 🏎️ Getting Started
 
 The project is based on [Next.js](https://nextjs.org/), a React framework for production. It
 uses [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
-The package manager is [pnpm](https://pnpm.io/), so you need to install it first.
+The package manager is [pnpm](https://pnpm.io/), so you need to install it first using the following command:
 
 ```sh
 make deps
@@ -31,7 +32,7 @@ make install
 Behind the scenes, this will do a `pnpm install` of the `package.json` dependencies, creating a `node_module` folder
 locally.
 
-### Environment Variables
+### 📨 Environment Variables
 
 No environment variables are required to run the template. These should be added to a `.env` file in the root of the project
 and should be prefixed with `NEXT_PUBLIC_` to be available in the client-side code.
@@ -55,7 +56,7 @@ make create_env
 This will create a `.env` file with the required environment variables. Make sure to update the values of the variables
 in the `.env` file to match your environment.
 
-### Development
+### 👨‍💻 Development
 
 To start a development build of the webapp, run:
 
@@ -71,7 +72,7 @@ Then open [http://localhost:3000](http://localhost:3000) with your browser to vi
 Make sure to update environment variables in `.env` to match your environment. See `.env.example` for an example of
 which variables are required. For more information, see the [Environment Variables](#environment-variables) section.
 
-#### Linting
+#### 🧹 Linting
 
 To lint the webapp, run:
 
@@ -82,7 +83,7 @@ make lint
 This runs `next lint`, which runs ESLint on the pages and components in the webapp and reports any linting errors.
 Make sure to fix all linting errors before submitting a pull request.
 
-### Production
+### 🚚 Production
 
 To run the production build of the webapp, run:
 
@@ -132,14 +133,14 @@ make deploy PORT=3069
 
 This starts the application in production mode in port `3069`.
 
-## Make it your own
+## 🎀 Make it your own
 
 To make this template your own, you SHOULD:
 
 - Update the `name`, `description`, `author` and `repository` fields in [`package.json`](/package.json).
 - Edit the [`site.ts`](/config/site.ts) file in the `src/config` folder to match your site's information.
 
-### Site Config Options
+### ⚙️ Site Config Options
 
 The `site.ts` file contains the following options:
 
@@ -153,5 +154,10 @@ The `site.ts` file contains the following options:
 | `siteUrl`         | The URL of the site.                                                                                                             |
 | `mainNav`         | The values to be used in the main navigation bar of the site with the shape `{ title, href }`.                                   |
 | `links`           | Social media links to be used throughout the app, these include by default twitter, telegram, github and docs. Extend as needed. |
+
+## ✍️ Acknowledgements
+
+* [Shadcn](https://shadcn.com) for ui, the beautifully designed components.
+* [Manu Arora](https://manuarora.in) for aceternity ui components.
 
 <hr/>
