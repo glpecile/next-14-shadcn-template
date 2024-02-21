@@ -1,3 +1,5 @@
+.PHONY: install create_env build start deploy dev lint clean clean_cache up_next
+
 install_pnpm:
 	@echo "🚧 Installing pnpm..."
 	npm install -g pnpm
