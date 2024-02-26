@@ -14,8 +14,8 @@
 	"dependencies": {
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.0",
-		"framer-motion": "^11.0.5",
-		"lucide-react": "^0.335.0",
+		"framer-motion": "^11.0.6",
+		"lucide-react": "^0.341.0",
 		"mini-svg-data-uri": "^1.4.4",
 		"next": "14.1.0",
 		"next-themes": "^0.2.1",
@@ -27,10 +27,10 @@
 	"devDependencies": {
 		"@biomejs/biome": "1.5.3",
 		"@types/node": "^20.11.20",
-		"@types/react": "^18.2.57",
+		"@types/react": "^18.2.58",
 		"@types/react-dom": "^18.2.19",
 		"autoprefixer": "^10.4.17",
-		"eslint": "^8.56.0",
+		"eslint": "^8.57.0",
 		"eslint-config-next": "14.1.0",
 		"eslint-plugin-tailwindcss": "^3.14.3",
 		"postcss": "^8.4.35",
