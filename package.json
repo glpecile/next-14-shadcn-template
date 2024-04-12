@@ -1,9 +1,9 @@
 {
 	"name": "next-shadcn-template",
-	"description": "Next.js template with TypeScript and shadcn-ui",
+	"description": "Template repository with TNT stack + a basic shadcn-ui config",
 	"author": "Gian Luca Pecile",
 	"repository": "https://github.com/glpecile/next-14-shadcn-template",
-	"version": "0.1.0",
+	"version": "0.2.0",
 	"private": true,
 	"scripts": {
 		"dev": "next dev",
@@ -17,7 +17,7 @@
 		"framer-motion": "^11.0.20",
 		"lucide-react": "^0.365.0",
 		"mini-svg-data-uri": "^1.4.4",
-		"next": "14.1.1",
+		"next": "14.2.0",
 		"next-themes": "^0.3.0",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
@@ -31,10 +31,11 @@
 		"@types/react-dom": "^18.2.24",
 		"autoprefixer": "^10.4.18",
 		"eslint": "^8.57.0",
-		"eslint-config-next": "14.1.3",
+		"eslint-config-next": "14.2.0",
 		"eslint-plugin-tailwindcss": "^3.15.0",
 		"postcss": "^8.4.38",
 		"tailwindcss": "^3.4.3",
 		"typescript": "^5.4.3"
-	}
+	},
+	"packageManager": "pnpm@8.15.6"
 }
