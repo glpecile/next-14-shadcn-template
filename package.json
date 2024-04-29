@@ -3,10 +3,10 @@
 	"description": "Template repository with TNT stack + a basic shadcn-ui config",
 	"author": "Gian Luca Pecile",
 	"repository": "https://github.com/glpecile/next-14-shadcn-template",
-	"version": "0.2.0",
+	"version": "0.3.0",
 	"private": true,
 	"scripts": {
-		"dev": "next dev",
+		"dev": "next dev --turbo",
 		"build": "next build",
 		"start": "next start",
 		"lint": "next lint",
