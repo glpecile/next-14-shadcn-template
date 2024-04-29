@@ -1,6 +1,7 @@
 # Not another Next.js starter
 
-This is a [Next.js](https://nextjs.org/) project template bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
+This is a [Next.js](https://nextjs.org/) project template bootstrapped
+with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app)
 by [Gian Luca Pecile](https://github.com/glpecile).
 
 ## 🔋 What's included
@@ -10,18 +11,25 @@ by [Gian Luca Pecile](https://github.com/glpecile).
 - [TypeScript](https://www.typescriptlang.org/)
 - [Biome.js](https://biomejs.dev/)
 - [Framer Motion](https://www.framer.com/motion/)
+- [Husky](https://typicode.github.io/husky/)
 
 ## 🏎️ Getting Started
 
 The project is based on [Next.js](https://nextjs.org/), a React framework for production. It
 uses [TypeScript](https://www.typescriptlang.org/) and [Tailwind CSS](https://tailwindcss.com/).
+
+Commits are linted using [Husky](https://typicode.github.io/husky/) and [commitlint](https://commitlint.js.org/),
+therefore [conventional commits](https://www.conventionalcommits.org/en/v1.0.0/) are mandatory in order to use the
+template's default config.
+
 The package manager is [pnpm](https://pnpm.io/), so you need to install it first using the following command:
 
 ```sh
 make deps
 ```
 
-This command will try to install `pnpm` globally using the existing `npm` version and then proceed to run `pnpm install`.
+This command will try to install `pnpm` globally using the existing `npm` version and then proceed to
+run `pnpm install`.
 
 If you have `pnpm` installed globally already, you can run:
 
@@ -34,7 +42,8 @@ locally.
 
 ### 📨 Environment Variables
 
-No environment variables are required to run the template. These should be added to a `.env` file in the root of the project
+No environment variables are required to run the template. These should be added to a `.env` file in the root of the
+project
 and should be prefixed with `NEXT_PUBLIC_` to be available in the client-side code.
 
 ```dotenv
