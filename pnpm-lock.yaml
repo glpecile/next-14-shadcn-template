@@ -68,8 +68,8 @@ devDependencies:
     specifier: 14.2.3
     version: 14.2.3(eslint@8.57.0)(typescript@5.4.5)
   eslint-plugin-tailwindcss:
-    specifier: ^3.15.2
-    version: 3.15.2(tailwindcss@3.4.3)
+    specifier: ^3.17.0
+    version: 3.17.0(tailwindcss@3.4.3)
   husky:
     specifier: ^9.0.11
     version: 9.0.11
@@ -1638,9 +1638,9 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /eslint-plugin-tailwindcss@3.15.2(tailwindcss@3.4.3):
-    resolution: {integrity: sha512-+HJfWcyP5B/e8r8qVSaTbf2i4+HsESJJsue66qFHRstV11CNTfdaDD9zkCVA1pm2EplBZ/BSJ3Htfzvb4YTVKw==}
-    engines: {node: '>=12.13.0'}
+  /eslint-plugin-tailwindcss@3.17.0(tailwindcss@3.4.3):
+    resolution: {integrity: sha512-Ofl7tNh57a3W8BKHstKZSkD2gSCEkw54ycwZ958IK9zUR8TiNYdp8b0WGoLWLeyOAbeF1VPVJFBnlkJeIM2kVg==}
+    engines: {node: '>=14.0.0'}
     peerDependencies:
       tailwindcss: ^3.4.0
     dependencies:
