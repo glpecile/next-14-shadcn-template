@@ -16,7 +16,7 @@
 		"class-variance-authority": "^0.7.0",
 		"clsx": "^2.1.1",
 		"framer-motion": "^11.3.2",
-		"lucide-react": "^0.402.0",
+		"lucide-react": "^0.408.0",
 		"mini-svg-data-uri": "^1.4.4",
 		"next": "14.2.3",
 		"next-themes": "^0.3.0",
@@ -39,7 +39,7 @@
 		"husky": "^9.0.11",
 		"postcss": "^8.4.39",
 		"tailwindcss": "^3.4.4",
-		"typescript": "^5.5.2"
+		"typescript": "^5.5.3"
 	},
 	"packageManager": "pnpm@8.15.6"
 }
