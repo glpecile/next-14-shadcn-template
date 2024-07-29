@@ -37,7 +37,7 @@ dependencies:
     version: 2.4.0
   tailwindcss-animate:
     specifier: ^1.0.7
-    version: 1.0.7(tailwindcss@3.4.6)
+    version: 1.0.7(tailwindcss@3.4.7)
 
 devDependencies:
   '@biomejs/biome':
@@ -69,7 +69,7 @@ devDependencies:
     version: 14.2.5(eslint@8.57.0)(typescript@5.5.3)
   eslint-plugin-tailwindcss:
     specifier: ^3.17.4
-    version: 3.17.4(tailwindcss@3.4.6)
+    version: 3.17.4(tailwindcss@3.4.7)
   husky:
     specifier: ^9.1.1
     version: 9.1.1
@@ -77,8 +77,8 @@ devDependencies:
     specifier: ^8.4.40
     version: 8.4.40
   tailwindcss:
-    specifier: ^3.4.6
-    version: 3.4.6
+    specifier: ^3.4.7
+    version: 3.4.7
   typescript:
     specifier: ^5.5.3
     version: 5.5.3
@@ -1644,7 +1644,7 @@ packages:
       string.prototype.matchall: 4.0.11
     dev: true
 
-  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.6):
+  /eslint-plugin-tailwindcss@3.17.4(tailwindcss@3.4.7):
     resolution: {integrity: sha512-gJAEHmCq2XFfUP/+vwEfEJ9igrPeZFg+skeMtsxquSQdxba9XRk5bn0Bp9jxG1VV9/wwPKi1g3ZjItu6MIjhNg==}
     engines: {node: '>=18.12.0'}
     peerDependencies:
@@ -1652,7 +1652,7 @@ packages:
     dependencies:
       fast-glob: 3.3.2
       postcss: 8.4.40
-      tailwindcss: 3.4.6
+      tailwindcss: 3.4.7
     dev: true
 
   /eslint-scope@7.2.2:
@@ -3334,16 +3334,16 @@ packages:
     resolution: {integrity: sha512-49AwoOQNKdqKPd9CViyH5wJoSKsCDjUlzL8DxuGp3P1FsGY36NJDAa18jLZcaHAUUuTj+JB8IAo8zWgBNvBF7A==}
     dev: false
 
-  /tailwindcss-animate@1.0.7(tailwindcss@3.4.6):
+  /tailwindcss-animate@1.0.7(tailwindcss@3.4.7):
     resolution: {integrity: sha512-bl6mpH3T7I3UFxuvDEXLxy/VuFxBk5bbzplh7tXI68mwMokNYd1t9qPBHlnyTwfa4JGC4zP516I1hYYtQ/vspA==}
     peerDependencies:
       tailwindcss: '>=3.0.0 || insiders'
     dependencies:
-      tailwindcss: 3.4.6
+      tailwindcss: 3.4.7
     dev: false
 
-  /tailwindcss@3.4.6:
-    resolution: {integrity: sha512-1uRHzPB+Vzu57ocybfZ4jh5Q3SdlH7XW23J5sQoM9LhE9eIOlzxer/3XPSsycvih3rboRsvt0QCmzSrqyOYUIA==}
+  /tailwindcss@3.4.7:
+    resolution: {integrity: sha512-rxWZbe87YJb4OcSopb7up2Ba4U82BoiSGUdoDr3Ydrg9ckxFS/YWsvhN323GMcddgU65QRy7JndC7ahhInhvlQ==}
     engines: {node: '>=14.0.0'}
     hasBin: true
     dependencies:
