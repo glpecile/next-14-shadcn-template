@@ -12,8 +12,8 @@ dependencies:
     specifier: ^2.1.1
     version: 2.1.1
   framer-motion:
-    specifier: ^11.3.21
-    version: 11.3.21(react-dom@18.3.1)(react@18.3.1)
+    specifier: ^11.3.24
+    version: 11.3.24(react-dom@18.3.1)(react@18.3.1)
   lucide-react:
     specifier: ^0.427.0
     version: 0.427.0(react@18.3.1)
@@ -1844,8 +1844,8 @@ packages:
     resolution: {integrity: sha512-ZsDfxO51wGAXREY55a7la9LScWpwv9RxIrYABrlvOFBlH/ShPnrtsXeuUIfXKKOVicNxQ+o8JTbJvjS4M89yew==}
     dev: true
 
-  /framer-motion@11.3.21(react-dom@18.3.1)(react@18.3.1):
-    resolution: {integrity: sha512-D+hfIsvzV8eL/iycld4K+tKlg2Q2LdwnrcBEohtGw3cG1AIuNYATbT5RUqIM1ndsAk+EfGhoSGf0UaiFodc5Tw==}
+  /framer-motion@11.3.24(react-dom@18.3.1)(react@18.3.1):
+    resolution: {integrity: sha512-kl0YI7HwAtyV0VOAWuU/rXoOS8+z5qSkMN6rZS+a9oe6fIha6SC3vjJN6u/hBpvjrg5MQNdSnqnjYxm0WYTX9g==}
     peerDependencies:
       '@emotion/is-prop-valid': '*'
       react: ^18.0.0
