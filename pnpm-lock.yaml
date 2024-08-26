@@ -71,8 +71,8 @@ devDependencies:
     specifier: ^3.17.4
     version: 3.17.4(tailwindcss@3.4.10)
   husky:
-    specifier: ^9.1.4
-    version: 9.1.4
+    specifier: ^9.1.5
+    version: 9.1.5
   postcss:
     specifier: ^8.4.41
     version: 8.4.41
@@ -2079,8 +2079,8 @@ packages:
     engines: {node: '>=16.17.0'}
     dev: true
 
-  /husky@9.1.4:
-    resolution: {integrity: sha512-bho94YyReb4JV7LYWRWxZ/xr6TtOTt8cMfmQ39MQYJ7f/YE268s3GdghGwi+y4zAeqewE5zYLvuhV0M0ijsDEA==}
+  /husky@9.1.5:
+    resolution: {integrity: sha512-rowAVRUBfI0b4+niA4SJMhfQwc107VLkBUgEYYAOQAbqDCnra1nYh83hF/MDmhYs9t9n1E3DuKOrs2LYNC+0Ag==}
     engines: {node: '>=18'}
     hasBin: true
     dev: true
