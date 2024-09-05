@@ -6,8 +6,8 @@ by [Gian Luca Pecile](https://github.com/glpecile).
 
 ## 🔋 What's included
 
-- [Next.js 14.2.5](https://nextjs.org/)
-- [Shadcn UI 0.8.0](https://ui.shadcn.com/)
+- [Next.js 14](https://nextjs.org/)
+- [Shadcn UI 2](https://ui.shadcn.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Biome.js](https://biomejs.dev/)
 - [Framer Motion](https://www.framer.com/motion/)
