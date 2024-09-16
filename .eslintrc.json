@@ -27,7 +27,7 @@
 		"react/prop-types": "off",
 		"semi": ["error", "always"],
 		"react/react-in-jsx-scope": "off",
-		"tailwindcss/classnames-order": "warn",
+		"tailwindcss/classnames-order": "off",
 		"tailwindcss/no-custom-classname": "warn",
 		"tailwindcss/no-contradicting-classname": "error"
 	},
