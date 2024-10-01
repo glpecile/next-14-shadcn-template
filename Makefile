@@ -59,3 +59,8 @@ clean_cache: clean
 up_next:
 	@echo "▲ Updating next..."
 	pnpm up next react react-dom eslint-config-next --latest
+
+up_biome:
+	@echo "🆙 Updating biome..."
+	pnpm up @biomejs/biome --latest
+	pnpm dlx @biomejs/biome migrate --write

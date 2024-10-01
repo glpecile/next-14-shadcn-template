@@ -79,7 +79,7 @@ more.
 Then open [http://localhost:3000](http://localhost:3000) with your browser to view the application.
 
 Make sure to update environment variables in `.env` to match your environment. See `.env.example` for an example of
-which variables are required. For more information, see the [Environment Variables](#environment-variables) section.
+which variables are required. For more information, see the [Environment Variables](#-Environment-Variables) section.
 
 #### 🧹 Linting
 
@@ -91,6 +91,19 @@ make lint
 
 This runs `next lint`, which runs ESLint on the pages and components in the webapp and reports any linting errors.
 Make sure to fix all linting errors before submitting a pull request.
+
+#### 🆙 Updating dependencies
+
+Dependencies are updated via dependabot. It creates up to 5 pull requests with the updated dependencies every other
+week. Make sure to review and merge them to keep the project up to date.
+
+Additionally, you can run:
+
+```sh
+make up_next up_biome
+```
+
+To update both the `next` and `biome` dependencies using their official helper scripts.
 
 ### 🚚 Production
 
