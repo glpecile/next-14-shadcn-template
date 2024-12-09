@@ -10,7 +10,7 @@ by [Gian Luca Pecile](https://github.com/glpecile).
 - [Shadcn UI 2](https://ui.shadcn.com/)
 - [TypeScript](https://www.typescriptlang.org/)
 - [Biome.js](https://biomejs.dev/)
-- [Framer Motion](https://www.framer.com/motion/)
+- [Motion for React](https://motion.dev/docs/react-quick-start)
 - [Husky](https://typicode.github.io/husky/)
 
 ## 🏎️ Getting Started
