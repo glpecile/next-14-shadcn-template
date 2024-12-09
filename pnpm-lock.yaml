@@ -53,8 +53,8 @@ devDependencies:
     specifier: ^22.10.1
     version: 22.10.1
   '@types/react':
-    specifier: ^18.3.5
-    version: 18.3.14
+    specifier: ^19.0.1
+    version: 19.0.1
   '@types/react-dom':
     specifier: ^19.0.1
     version: 19.0.1
@@ -839,6 +839,12 @@ packages:
     resolution: {integrity: sha512-NzahNKvjNhVjuPBQ+2G7WlxstQ+47kXZNHlUvFakDViuIEfGY926GqhMueQFZ7woG+sPiQKlF36XfrIUVSUfFg==}
     dependencies:
       '@types/prop-types': 15.7.14
+      csstype: 3.1.3
+    dev: true
+
+  /@types/react@19.0.1:
+    resolution: {integrity: sha512-YW6614BDhqbpR5KtUYzTA+zlA7nayzJRA9ljz9CQoxthR0sDisYZLuvSMsil36t4EH/uAt8T52Xb4sVw17G+SQ==}
+    dependencies:
       csstype: 3.1.3
     dev: true
 
