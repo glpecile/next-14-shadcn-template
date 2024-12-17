@@ -56,7 +56,7 @@ devDependencies:
     specifier: ^19.0.1
     version: 19.0.1
   '@types/react-dom':
-    specifier: ^19.0.1
+    specifier: ^19.0.2
     version: 19.0.2(@types/react@19.0.1)
   autoprefixer:
     specifier: ^10.4.20
